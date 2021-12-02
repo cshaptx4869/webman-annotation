@@ -1,0 +1,30 @@
+{
+  "name": "cshaptx4869/webman-annotation",
+  "description": "webman 注解插件",
+  "type": "library",
+  "keywords": [
+    "webman",
+    "annotation",
+    "route"
+  ],
+  "license": [
+    "Apache-2.0"
+  ],
+  "authors": [
+    {
+      "name": "cshaptx4869",
+      "email": "994774638@qq.com"
+    }
+  ],
+  "require": {
+    "doctrine/annotations": "^1.13"
+  },
+  "require-dev": {
+    "workerman/webman": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fairy\\": "src"
+    }
+  }
+}
